@@ -1,5 +1,4 @@
 table {
-  min-width: 65vh;
   margin-left: auto;
   margin-right: auto;
 }
@@ -9,13 +8,13 @@ table {
 }
 
 .table-top-panel {
-  width: 80%;
+  /* width: 80%; */
   margin-left: auto;
   margin-right: auto;
 }
 
 mat-paginator {
-  width: 80%;
+  /* width: 80%; */
   margin-left: auto;
   margin-right: auto;
   /* margin-top: 0px; */
@@ -33,6 +32,14 @@ th.mat-sort-header-sorted {
 td,
 th {
   width: 25%;
+}
+
+@media(min-width: 485px) { 
+    table {
+        width: 65vh;
+        margin-left: auto;
+        margin-right: auto;
+      }
 }
 
 
