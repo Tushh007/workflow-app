@@ -2,7 +2,6 @@ import { Component, OnDestroy, OnInit } from '@angular/core';
 import { DataService } from 'src/app/shared/services/data.service';
 
 import { Subscription } from 'rxjs';
-import { Questions } from 'src/app/shared/models/questions';
 
 @Component({
   selector: 'app-answers',

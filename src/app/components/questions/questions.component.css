@@ -1,5 +1,5 @@
 table {
-  width: 80%;
+  min-width: 65vh;
   margin-left: auto;
   margin-right: auto;
 }
@@ -8,15 +8,8 @@ table {
   background-color: #fafafa;
 }
 
-table {
-  width: 80%;
-  margin-right: auto;
-  margin-left: auto;
-}
-
 .table-top-panel {
   width: 80%;
-  /* background-color: tomato; */
   margin-left: auto;
   margin-right: auto;
 }
@@ -31,3 +24,16 @@ mat-paginator {
 th.mat-sort-header-sorted {
   color: black;
 }
+
+.mat-form-field {
+  font-size: 14px;
+  width: 100%;
+}
+
+td,
+th {
+  width: 25%;
+}
+
+
+
